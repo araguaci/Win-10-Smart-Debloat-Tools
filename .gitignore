@@ -6,7 +6,9 @@
 **/tmp/**/*.cer
 **/tmp/**/*.exe
 **/tmp/**/*.ttf
-**/tmp/Fonts/*
+**/tmp/**/*.xml
+**/tmp/fonts/*
+**/tmp/winget-install/*
 
 # Downloaded temporary files
 *.tmp
@@ -16,3 +18,6 @@
 
 # Ignore installers, WSL2 update in this case
 *.msi*
+
+# GIMP project files
+*.xcf
